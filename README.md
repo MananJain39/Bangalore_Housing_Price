@@ -3,7 +3,7 @@
 
 ## Aim
 
-Our aim in the project was to make a model which can predict housing prices in Bangalore to the nearest Lakh(what we achieved is quite impressive).
+Our aim in the project was to make a model which can predict housing prices in Bangalore using the dataset from Kaggle to the nearest Lakh(what we achieved is quite impressive).
 
 ##    Feature Engineering
 
