@@ -7,7 +7,7 @@ Our aim in the project was to make a model which can predict housing prices in B
 
 ##    Feature Engineering
 
-1. Convert the values in total_sqft column such as 1100-1200 or 1100 sq mt to a Avg float value so we can operate on it.
+1. Convert the values in the total_sqft column, such as 1100-1200 or 1100 sq mt to an Avg float value so we can operate on it.
 
 2. Find the Price/sqft for each area so we can identify the outliers easily.
 
@@ -15,17 +15,17 @@ Our aim in the project was to make a model which can predict housing prices in B
 
 4. Find the total dataset in each Area.
 
-5. Find the area which are less than 10 stats and keep them all together.
+5. Find the areas which are less than 10 stats and keep them all together.
 
-6. Finding the worth of the house, say each room is only 200sqft which is not nice, makes the room too small and suffocating.
+6. Finding the worth of the house, say each room is only 200 sqft, which is not nice, makes the room too small and suffocating.
 
 ## Outlier Removal
-1. Remove which have very high Price/sqft. Filter out rows which are too far from the mean (Extreme Outliers).
-2. Remove those values using numpy array where its like price of 3 BHK < 2 BHK, which is unrealistic.
-3. Stats where there are too many baths, 4 BHK house and 7 baths. An Outlier.
+1. Remove those that have very high Price/sqft. Filter out rows which are too far from the mean (Extreme Outliers).
+2. Remove those values using a numpy array, where it's like the  price of a 3 BHK < 2 BHK, which is unrealistic.
+3. Stats where there are too many baths, a 4 BHK house and 7 baths. An Outlier.
 
 ## Training Model
-Training the model using train_test_split from scikit-learn library.
+Training the model using train_test_split from the scikit-learn library.
 
 <div style="margin-left: 20px">
 
@@ -38,7 +38,7 @@ RMSE: 23.168730307640438<br>
 R2: 0.8464476855697785
 
 ### Cross-Validation
-CV R2 score:  [0.57545834, 0.76945633, 0.66584318, 0.6368459,  0.79098429]<br>
+CV R2 score:  [0.57545834, 0.76945633, 0.66584318, 0.6368459, 0.79098429]<br>
 Mean R2 score 0.6877176069800204
 </div>
 
