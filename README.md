@@ -26,8 +26,8 @@ Our aim in the project was to make a model which can predict housing prices in B
 
 ## Training Model
 Training the model using train_test_split from scikit-learn library.
-<div style="margin-left: 20px">
 
+<div style="margin-left: 20px">
 ### Linear Regression:
 RMSE: 22.209067134017875<br>
 R2: 0.8672560791792229
@@ -39,7 +39,6 @@ R2: 0.8464476855697785
 ### Cross-Validation
 CV R2 score:  [0.57545834, 0.76945633, 0.66584318, 0.6368459,  0.79098429]<br>
 Mean R2 score 0.6877176069800204
-
 </div>
 
 ## Final Prediction
