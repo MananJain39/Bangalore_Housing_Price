@@ -15,7 +15,7 @@ with open('columns.json', 'r') as f:
 
 @app.get("/")
 def root():
-    return {"message": "Bangalore House Price Prediction API is running!"}
+    return {"message": "Prediction is running!"}
 
 
 class PredictionRequest(BaseModel):
